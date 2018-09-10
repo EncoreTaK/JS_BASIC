@@ -8,11 +8,17 @@ console.log(0===false);
 console.log(2===2);
 */
 console.log(3>'10');//false
-console.log('3'>'10');
-console.log('雷锋'>'雷峰塔');
-console.log(3>'10a');
-console.log(3<'10a');
-console.log(3=='10a');
-console.log(3!='10a'); //true
-console.log(3!=='10a');//true
-console.log(NaN==NaN);
+console.log(3>10);//false
+console.log('3'>'10');//true
+console.log('雷锋'>'雷峰塔');//true
+console.log(3>'10a');//false
+console.log(3<'10a');//false
+console.log(3=='10a');//false
+console.log('10a'=='10a');//true
+console.log(typeof('10a'));//string
+console.log(3<'10');//true
+console.log(3<10);//true
+
+console.log('3'.charCodeAt());//51
+console.log('10'.charCodeAt());//49
+
